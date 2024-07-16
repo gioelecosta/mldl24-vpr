@@ -2,6 +2,8 @@
 In this work we address the Visual Place Recognition (VPR) task which consists in localizing a place depicted in a query image. Only computer vision's techniques are exploited. In the first place, we train our model according to the GSV-Cities framework. Next, we test our best model on two benchmark datasets. Finally, we analyze and compare the results obtained from using different model aggregators, loss functions, mining techniques and optimizers. We also visualize some queries and their predictions to better understand the reasoning behind our model's decisions. We show that the model utilizing MixVPR as aggregator outperforms other evaluated configurations.  
 Performance obtained training the model on different aggregators:
 
+### Results obtained on SF_XS val
+
 | Aggregator | R1    | R5    | R10   | R15   | R20   |
 |------------|-------|-------|-------|-------|-------|
 | AVG        | 53.85 | 69.41 | 75.20 | 78.51 | 80.76 |
